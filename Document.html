@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<!-- saved from url=(0062)file:///C:/Users/SVAPPS/OneDrive/Desktop/demorosh/website.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document-weforyou</title>
+     <style>
+
+
+    *{
+        margin:0;
+        padding:0;
+    }
+
+    body{
+        margin-left: 10px;
+        height:100vh;
+        width:100%;
+        overflow-x: hidden;
+    }
+
+    .navbar{
+        position: fixed;
+        background: rgb(231, 232, 236);
+        width:100%;
+        display: flex;
+        left:0;
+    }
+
+
+    .nav li{
+
+        display: inline-block;
+        justify-content: space-evenly;
+        padding-top:15px;
+        text-align: center;
+        align-items: center;
+        font-size: 20px;
+        margin-right:10px;
+        width:160px;
+        margin-top:10px;
+        align-items: center;
+        height:40px;
+        position: relative;
+        left:200px;
+        margin-left:30px;
+        font-weight:bold;
+        border-radius: 10px;
+
+        background:linear-gradient(to bottom left,rgb(102, 241, 248),rgb(72, 224, 224));
+    }
+
+
+    .nav li:hover{
+      
+        color:rgb(254, 253, 250);
+      
+    }
+
+    .logo img{
+        
+        position: relative;
+        width:200px;
+        left:60px;
+
+        transition:0.3 ease;
+
+        
+    }
+
+    .logo img:hover{
+    
+        transform:scale(1.1);
+    }
+   
+
+    .slide img{
+
+        width:100%;
+        height:5%;
+  
+    }
+
+    
+
+    .menu ul li{
+        display: inline-block;
+        justify-content: space-between;
+        margin-left:30px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    .icon{
+
+        width:180px;
+        margin-left: 20px;
+        box-shadow: 0px 10px 10px black;
+        border-radius: 90%;
+        margin-top: 3px;
+             
+    }
+
+    .menu{
+        margin-left: 200px;
+        margin-top: 19px;
+        margin-left: 50%;
+    }
+
+    .on{
+
+        background-color: blue;
+        padding: 10px 20px;
+
+    }
+
+
+    .cont-1{
+        margin-left:100px;
+        margin-top: 50px;
+
+    }
+
+    .cont-1 h1{
+
+        color:rgb(58, 22, 234);
+        margin-bottom: 20px;
+        
+    }
+
+    #sub{
+        color:rgb(80, 77, 77);
+        font-size:28px;
+        font-weight: bold;
+        margin-bottom: 20px;
+
+    }
+
+    #des{
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        line-height: 50px;
+    }
+
+   #sub2{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+
+   }
+
+   .list p{
+     
+        color: rgb(14, 14, 184);
+        font-size: 30px;
+        font-weight:900px;
+        margin-bottom: 10px;
+      
+    
+   }
+
+   button{
+    background: linear-gradient(to bottom right,rgb(31, 163, 224),rgb(30, 98, 214));
+    margin-bottom: 100px;
+    padding:20px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    border-style: none;
+    box-shadow: 5px 2px 3px black;
+    margin-top: 10px;
+   
+   }
+
+   .t1{
+    color:rgb(28, 35, 30);
+    margin-bottom: 40px;
+    background-color: aqua;
+   }
+
+
+   .about{
+    margin-top: 23px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+
+   }
+
+   .cont-2{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0px;
+   }
+
+
+  
+    
+
+   .cont-3{
+
+    background-image: url(about-2.jpg);
+    background-repeat: no-repeat;
+    object-position: center;
+    background-size: cover;
+    text-align: center;
+ 
+
+  
+   }
+
+   .title1{
+
+    padding:8px;
+    background-color: rgb(231, 236, 225);
+    
+    width:700px;
+    margin-left:10px;
+       }
+
+
+
+
+
+       .content{
+        position:static;
+        right:30px;
+        text-align: start;
+        margin-left: 70px;
+        margin-bottom: 100px;
+       }
+
+       .content h2{
+
+        margin-bottom: 50px;
+        font-size: 20px;
+       }
+
+       .contact{
+        padding:30px;
+        background-color: rgb(183, 236, 237);
+        width:100%;
+        height:150px;
+        line-height: 46px;
+        margin-left: 0%;
+        margin-bottom: 10px;
+        border-style: solid 20px rgb(0, 0, 0);
+
+       }
+
+       .contact:hover{
+
+        background-color: rgb(126, 160, 67);
+       }
+
+       .btn{
+
+        background: linear-gradient(to bottom right,blue,rgb(37, 222, 225));
+        position: static;
+        left:50px;
+        transition: 0.1 ease-in;
+       }
+
+       .btn:hover{
+        color: orangered;
+        transform: scale(1.1);
+       }
+
+       .footer{
+        display:grid;
+        grid-template-columns: 200px 200px 200px 200px;
+        padding:50px;
+        column-gap: 100px;
+        text-align: center;
+        margin-left: 200px;
+        padding-top:10px;
+       
+    
+
+       }
+       .col{
+        background-image: url(about-1.jpg);
+        color:rgb(14, 10, 28);
+        padding:20px;
+        width:200px;
+        height:200px;
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 30px;
+        transition: 0.3 ease;
+       
+       }
+       .col:hover{
+           
+        color:orangered;
+        text-shadow:(0,0,25px orange);
+        transform: scale(1.1);
+        
+       }
+
+       .img1{
+        position:relative;
+        top:5px;
+        left:100px;
+      
+       }
+
+       .img1 img{
+        border-radius: 10px;
+       }
+
+       .img2{
+        position:relative;
+        top:70px;
+        right:150px;
+        border-image-width: 20px;
+       }
+       .img2 img{
+        border-radius: 10px;
+       }
+
+      
+
+       
+      
+      
+
+       .bottom{
+        display: flex;
+        justify-content: space-around;
+        width:900px;
+        height:200px;
+        background: linear-gradient(to bottom right,rgb(17, 102, 221),rgb(221, 227, 229));
+        position: relative;
+        left:320px;
+        align-items: center;
+        margin-top: 50px;
+       }
+       .c1{
+        background: linear-gradient(to bottom right,rgb(14, 137, 219),rgb(0, 29, 96));
+        padding:10px;
+        color:rgb(240, 24, 24);
+        
+       
+       }
+
+
+
+       .c1:hover{
+           
+           color:orangered;
+           text-shadow:(0,0,25px orange);
+          
+       }
+
+       .home{
+        background:linear-gradient(to bottom right,rgb(76, 57, 171),rgb(46, 234, 255));
+        margin-top: 10px;
+       
+
+     
+       }
+
+       .home li{
+        color:rgb(4, 2, 2);
+        display: inline-block;
+       margin-left: 150px;
+        align-items: center;
+        padding:20px;
+        margin-top: 10px;
+       
+        font-size: 20px;
+        transition: 0.3 ease;
+       }
+
+       .home li:hover{
+
+        color:rgb(255, 251, 251);
+        transform: scale(1.1);
+       
+       }
+
+       span{
+        color:blue;
+       }
+
+       .last{
+        display:flex;
+        justify-content: space-between;
+        margin-right: 20px;
+       }
+       .lastpic{
+        position:relative;
+        width:100%;
+        height:100%;
+        bottom: 0px;
+       }
+
+      .cont-1 .k1{
+
+          font-size:18px;
+       }
+
+       
+     
+
+
+</style>
+
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="navbar">
+            <div class="logo">
+
+                <img src="Logo-01.png">
+            </div>
+
+
+
+            <div class="home1">
+                <ul class="nav">
+
+                    <li>Home</li>
+                    <li>About us</li>
+                    <li>Services</li>
+                    <li>Gallery</li>
+                    <li>Contact us</li>
+    
+    
+    
+    
+                </ul>
+
+            </div>
+           
+
+
+        </div>
+
+
+
+    <div class="slide">
+
+        <img src="./Document_files/55.jpg">
+
+    </div>
+
+
+    <div class="about">
+
+        
+
+        <div class="cont-1">
+
+            <h1>About Us</h1>
+            <p id="sub">Study in Canada And Settele In Canada</p>
+            <p id="des">Weforyou.ca guides you in every step to reach one of the beautiful <br>countries and land of opportunities CANADA.</p>
+            <p id="sub2">We encourage all the students who have<br> completed their</p>
+
+            <div class="list">
+
+            <p class="k1"><i class="fa fa-check-square" style="font-size:24px; margin-right: 2px;"></i>Intermediate</p>
+            <p class="k1"><i class="fa fa-check-square" style="font-size:24px; margin-right: 2px;"></i> Bachelor's degree (B.A, B.Com, B.Sc, B.Tech/B.E)</p>
+
+            <p class="k1"><i class="fa fa-check-square" style="font-size:24px; margin-right: 2px;"></i> Polytechnic</p>
+
+            <p class="k1"><i class="fa fa-check-square" style="font-size:24px; margin-right: 2px;"></i> Nursing</p>
+
+            <p style="color:rgb(85, 82, 82);font-size:large;">(English Medium Students are Preffered)</p>
+            <button>Discover More</button>
+
+        </div>
+
+
+
+
+        </div>
+
+        <div class="cont-2">
+
+
+             <div class="img1">
+                <img style="height:400px" src="./Document_files/about-1.jpg">
+
+             </div>
+
+             
+             <div class="img2">
+                <img src="./Document_files/about-1.jpg">
+
+             </div>
+           
+        </div>
+    
+    </div>
+
+
+
+    <div class="cont-3">
+
+
+        <div class="title">
+
+            <h1 class="t1">Once you land in Canada we offer many other services and see that you don't worry for anything.<br>
+                 Even the parents can contact us.</h1>
+
+
+                 <div class="content">
+                 <h2 class="title1" style="color:rgb(234, 91, 55)"><i class="fa fa-check-square" style="font-size:25px;margin-right: 5px;"></i></i>OPENING BANK ACCOUNT</h2>
+                 <h2  class="c1"style="color:rgb(190, 190, 180) ; margin-left:10px">We can help students identify the right bank which can give them the best services and benefits. Our counsellors can guide <br>the students on different options available.
+                 </h2>
+
+
+
+                 <h2 class="title1" style="color:rgb(234, 91, 55)"><i class="fa fa-check-square" style="font-size:25px;margin-right: 5px;"></i></i>TRAVEL AND INSURANCE</h2>
+                 <h2 class="c1" style="color:rgb(187, 186, 177) ; margin-left:10px">We can help students identify the right bank which can give them the best services and benefits. Our counsellors can guide <br>the students on different options available.
+                 </h2>
+
+
+
+                 <h2 class="title1" style="color:rgb(234, 91, 55)"><i class="fa fa-check-square" style="font-size:25px;margin-right: 5px;"></i></i>TEMPORARY ACCOMMODATION</h2>
+                 <h2 class="c1" style="color:rgb(159, 159, 150); margin-left:10px">We can help students identify the right bank which can give them the best services and benefits. Our counsellors can guide <br>the students on different options available.
+                 </h2>
+
+                 <h2 class="title1" style="color:rgb(233, 100, 67)"><i class="fa fa-check-square" style="font-size:25px;margin-right: 5px;"></i>TELECOM SERVICE</h2>
+                 <h2 class="c1" style="color:rgb(166, 167, 160) ; margin-left:10px">We can help students identify the right bank which can give them the best services and benefits. Our counsellors can guide <br>the students on different options available.
+                 </h2>
+
+                      
+                 <button class="btn">Read More...</button>
+
+
+               
+ 
+                 </div>
+                 
+
+
+        </div>
+    </div>
+
+
+    <div class="footer">
+
+
+        <div class="col">Degree</div>
+        <div class="col">ITI</div>
+        <div class="col">Engineering</div>
+        <div class="col">Diploma</div>
+
+
+    </div>
+
+
+    <div class="bottom">
+
+
+        <div class="l1">
+            <h2>📍India Address<br><small>
+                12-11-4 Namalagundu near<br> Lord Anjaneya temple<br> Secunderabad 500061<br> info@weforyou.ca</small></h2>
+
+
+        </div>
+
+        <div class="l2">
+            <h2>📍India Address<br><small>
+                12-11-4 Namalagundu near<br> Lord Anjaneya temple<br> Secunderabad 500061<br> info@weforyou.ca</small></h2>
+
+
+
+        </div>
+
+        <div class="l3">
+            <h2>📍India Address<br><small>
+                12-11-4 Namalagundu near<br> Lord Anjaneya temple<br> Secunderabad 500061<br> info@weforyou.ca</small></h2>
+
+        </div>
+
+</div>
+        <div class="final">
+
+
+
+
+    </div>
+</div>
+
+
+    <div class="lastpic">
+
+        <ul class="home">
+
+            <li>Home</li>
+            <li> About Us</li>
+            
+            <li>◻ Services</li>
+            
+            <li>◻ Gallery</li>
+
+            <li>◻ Contact us</li>
+
+            
+        </ul>
+        
+        
+        
+     
+        <hr style="color:white; border: 3px solid rgb(240, 236, 236);margin-top:8px">
+        <div class="last">
+            <div class="copy">
+               
+               <p style="margin-left:10px;margin-top:10px">© 2022 weforyou. All Rights Reserved.</p> 
+         
+        
+              </div>
+
+              <div class="copy1">
+                <p  style="margin-left:10px;margin-top:10px">Designed by <span>SVAPPS</span></p> 
+          
+               </div>
+               
+
+        </div>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+</body></html>
